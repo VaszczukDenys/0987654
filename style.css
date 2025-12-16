@@ -1,0 +1,75 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+
+.lista-kropka {
+    list-style-type: disc;
+    color: darkblue;
+}
+.lista-kropka li {
+    color: navy;
+}
+
+
+.lista-kwadrat {
+    list-style-type: square;
+    color: darkgreen;
+}
+.lista-kwadrat li {
+    color: green;
+}
+
+
+.lista-rzymska {
+    list-style-type: upper-roman;
+    color: darkred;
+}
+.lista-rzymska li {
+    color: brown;
+}
+
+
+.lista-obrazek {
+    list-style-image: url("https://cdn-icons-png.flaticon.com/16/415/415733.png");
+    color: purple;
+}
+.lista-obrazek li {
+    color: indigo;
+}
+
+
+.lista-inside {
+    list-style-position: inside;
+    list-style-type: circle;
+    color: teal;
+}
+
+
+.lista-outside {
+    list-style-position: outside;
+    list-style-type: disc;
+    color: darkorange;
+}
+
+
+.lista-bez {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+.lista-bez li {
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.lista-skrot {
+    list-style: square inside;
+    color: darkviolet;
+}
+.lista-skrot li {
+    color: purple;
+}
